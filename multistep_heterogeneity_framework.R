@@ -336,6 +336,7 @@ for (cluster in clusters_list) {
     df_bal_tables <- rbind(df_bal_tables, new_row)
   }
 }
+
 #print the resulting dataframe for comparison between methods
 print(df_bal_tables)
 
